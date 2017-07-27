@@ -1,9 +1,16 @@
 (function() {
+    var ViewModel = function() {
+
+    };
+
+    var viewModelInstance = new ViewModel();
 
     var app = Sammy.apps.body;
 
     app.get('#/', function(context) {
-        console.log("You're in the Main route");
+        $(document).ready(function() {
+            ko.applyBindings(viewModelInstance);
+        });
     });
 
 })();

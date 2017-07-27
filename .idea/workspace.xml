@@ -2,8 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da96b842-ecd2-4a6e-8a44-8ec574140a08" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc.html" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/adding-a-camera.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/adding-a-camera.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/algorithm.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/algorithm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/calibration-coins.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/calibration-coins.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/calibration-done.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/calibration-done.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/calibration-quality.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/calibration-quality.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/camera-setup-tools.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/camera-setup-tools.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/coins-vision-process.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/coins-vision-process.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/creating-vision-process.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/creating-vision-process.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/dh-kinematics-real.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/dh-kinematics-real.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/dh-kinematics.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/dh-kinematics.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/grid-pattern-calibration.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/grid-pattern-calibration.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/height.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/height.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/ipendant-roboguide.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/ipendant-roboguide.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/ipendant.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/ipendant.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/joint-spec.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/joint-spec.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/l-move.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/l-move.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/lrmate.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/lrmate.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/marking.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/marking.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/offset-frame.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/offset-frame.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/patterns.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/patterns.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/process-2.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/process-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/registers-1.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/registers-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/registers-2.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/registers-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/registers-3.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/registers-3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/results.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/results.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/robots-technical-drawing.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/robots-technical-drawing.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/task-1.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/task-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/teaching.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/teaching.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/tree-view.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/tree-view.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/userframe-palette-1.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/userframe-palette-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/userframe-palette-2.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/userframe-palette-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/utool.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/utool.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lets-program-a-fanuc/vision-process.png" afterPath="$PROJECT_DIR$/stories/lets-program-a-fanuc/vision-process.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/view-models/main.js" afterPath="$PROJECT_DIR$/js/view-models/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,18 +56,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/view-models/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,10 +104,10 @@
         </entry>
       </file>
       <file leaf-file-name="lets-program-a-fanuc.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-program-a-fanuc.html">
+        <entry file="file://$PROJECT_DIR$/stories/lets-program-a-fanuc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="68" lean-forward="true" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+            <state relative-caret-position="-3910">
+              <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding>
                 <element signature="n#div#0;n#div#21;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#21;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -119,12 +164,13 @@
       <list>
         <option value="$PROJECT_DIR$/js/collapsible.js" />
         <option value="$PROJECT_DIR$/css/custom.css" />
-        <option value="$PROJECT_DIR$/lets-program-a-fanuc.html" />
-        <option value="$PROJECT_DIR$/js/view-models/lets-program-a-fanuc.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/js/view-models/main.js" />
         <option value="$PROJECT_DIR$/js/view-models/stories.js" />
+        <option value="$PROJECT_DIR$/js/view-models/lets-program-a-fanuc.js" />
+        <option value="$PROJECT_DIR$/js/view-models/main.js" />
+        <option value="$PROJECT_DIR$/lets-program-a-fanuc.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -165,6 +211,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="passionateaboutengineering" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="passionateaboutengineering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="passionateaboutengineering" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stories" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -227,6 +287,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Apache24\htdocs\passionateaboutengineering\stories" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -301,12 +366,12 @@
       <workItem from="1500753887543" duration="12150000" />
       <workItem from="1501098772513" duration="281000" />
       <workItem from="1501099851410" duration="1400000" />
-      <workItem from="1501185275049" duration="2197000" />
+      <workItem from="1501185275049" duration="4024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31424000" />
+    <option name="totallyTimeSpent" value="33251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -350,7 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-program-a-fanuc.html">
+    <entry file="file://$PROJECT_DIR$/stories/lets-program-a-fanuc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="49" />
@@ -386,7 +451,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-program-a-fanuc.html">
+    <entry file="file://$PROJECT_DIR$/stories/lets-program-a-fanuc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -422,7 +487,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-program-a-fanuc.html">
+    <entry file="file://$PROJECT_DIR$/stories/lets-program-a-fanuc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -458,7 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-program-a-fanuc.html">
+    <entry file="file://$PROJECT_DIR$/stories/lets-program-a-fanuc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -486,38 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/collapsible.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/view-models/lets-program-a-fanuc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-program-a-fanuc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="68" lean-forward="true" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-          <folding>
-            <element signature="n#div#0;n#div#21;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#21;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#div#21;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -526,6 +563,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/collapsible.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -540,8 +585,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/view-models/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stories/lets-program-a-fanuc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3910">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="n#div#0;n#div#21;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#21;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#21;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
           <folding />
         </state>
       </provider>
