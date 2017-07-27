@@ -1,0 +1,42 @@
+.figure-description {
+	text-align: center;
+	font-style: italic;
+	margin-left: 1%;
+}
+
+.row {
+	margin-bottom: 1rem;
+}
+
+.img-center {
+	text-align: center;
+}
+
+body {
+	background-color: #22282A;
+	color: #F1F2F3;
+}
+
+code {
+	color: black;
+}
+
+#toc {
+	position: fixed;
+	right: 0;
+	top: 0;
+	background-color:#5c5c42;
+	padding: 20px;
+	z-index: 1000;
+	border-bottom-left-radius: 15px;
+}
+
+#toc #full { display: none; } /* Hide the full TOC by default */
+
+#toc:hover #full{
+	display: block; /* Show it on hover */
+}
+
+a {
+	text-decoration: none;
+}
