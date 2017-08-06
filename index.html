@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Passionate about engineering | Home</title>
 
     <link rel="stylesheet" href="css/normalize.css">
@@ -9,13 +10,9 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/jquery-2.2.4.js"></script>
-    <script src="js/knockout-min.js"></script>
-    <script src="js/sammy.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
-
     <script src="js/app.js"></script>
-    <script src="js/view-models/main.js"></script>
-    <script src="js/view-models/stories.js"></script>
+
 	<script>
 	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 		function myFunction() {
@@ -30,31 +27,20 @@
 </head>
 <body id="container">
 <div class="topnav" id="myTopnav">
-  <a href="#home">Home</a>
-  <a id="stories" href="#/stories">Stories</a>
-  <a href="#about">About</a>
+  <a class='rel' href="#/home">Home</a>
+  <a class='rel' href="#/stories">Stories</a>
+  <a class='rel' href="#/about">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-<div id="contents"  style="padding-top: 10%">
-	<div style="position: relative;" class="container">
-		<div class="row">
-			<div>
-				<div style='color: white; font-family: "Trebuchet MS", Helvetica, sans-serif' class="ten columns"><h2 id="fittext1">PASSIONATE ABOUT<br/> ENGINEERING.</h2></div>
-			</div>
-		</div>
-		<div class="row">
-						<div class="six columns"><button class="button-primary">Go to stories</button></div>
-		</div>
-	</div>
-</div>
+<div id="view-container"></div>
 </body>
 <script>
 $("#fittext1").fitText();
-$('#stories').click(function(e) {
-                e.preventDefault();
-                $('#contents .container').css({ 'right': '0px', 'left': '' }).animate({
-                    'right' : '100%'
-                });                    
-            });
+//$('#stories').click(function(e) {
+//                e.preventDefault();
+//                $('#contents .container').css({ 'right': '0px', 'left': '' }).animate({
+//                    'right' : '100%'
+//                });
+//            });
 </script>
 </html>

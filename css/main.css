@@ -54,3 +54,34 @@ body {
     text-align: left;
   }
 }
+
+
+.epics {
+    background-color: #fff;
+}
+
+.short-stories {
+    background-color: #fff;
+}
+
+.epics,
+.short-stories {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.stories h3 {
+    text-align: center;
+    color: #333;
+}
+
+a.story-link, a.story-link:active {
+    color: #333;
+    text-decoration: none;
+}
+
+a.story-link:hover {
+    color: #333;
+    text-decoration: underline;
+}
