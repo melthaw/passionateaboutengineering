@@ -936,5 +936,90 @@ GO_TO_SAFETY will change the frame to WORLD and will move the effector to interm
 		correctly for the whole table. In previous prototypes, I was using 100x100 calibration grid, so the
 		usable scene dimensions were rather reduced.</p>
 </div>
+<hr/>
+<div class="container">
+	<h4 id="table">2.5. Table's construction</h4>
+	<p>Table's design was created using CAD software, so that the construction was stable and dimensioned properly. Further, you may find attached
+	construction drawings of the table and the model itself.</p>
+	<p>The mechanism was rather simple - I wanted to achieve a possibility of 'shaking' the table as desired, without any substantial loads, so no huge forces were
+	required. The eccentric mechanism was realized using three shaft. On the main shaft, &Phi;10, were fixed two &Phi;20 shafts, each of which was on a bearing with elastic
+	housing (see attached image). The &Phi;20 shafts were displaced relatively to each other a little bit, so when the drive shaft starts rotating, sides of the table go up and down. From behind,
+	the table was supported by coils of medium hardness, so that the whole construction is shaking yet stable. Movable bearings were attached to the table using rubber bushing. The sheet metals
+	was covered in black paper so the coins were easier to spot.</p>
+	<p>By driving the main shaft, movable bearings are pushed up and down, interchangebly.</p>
+	<p>Unfortunately, when attaching the motor and gears, I've drilled holes in gears for shafts rather awry and the motor was not able to overcome to resistance, thus I had to use an accumulator
+	drill drive. Thanks to the modular 18V accumulator, I could connect it through a relay to the drill. The drill's arm was supported so that it did not turn around its own axis, and the drill's start
+	switch was blocked in 'ON' position - turning it ON/OFF was done by relay by providing supply.</p>
+	<p>The table itself was fixed to the station so that it didn't change its own position against the camera.</p>
+	<p><strong>Special thanks to my uncle Wiktor, who prepared the design and parts so that we could assemble the table together!</strong></p>
+	<div class="row">
+		<div class="eleven columns img-center">
+			<img class="u-max-full-width" src="lets-program-a-fanuc/3d-table.png"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns figure-description">
+			Figure 32 - 3d model of the table
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns img-center">
+			<img class="u-max-full-width" src="lets-program-a-fanuc/3d-table-2.png"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns figure-description">
+			Figure 33 - 3d model of the table
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns img-center">
+			<img class="u-max-full-width" src="lets-program-a-fanuc/3d-table-3.png"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns figure-description">
+			Figure 34 - table top view
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns img-center">
+			<img class="u-max-full-width" src="lets-program-a-fanuc/3d-table-4.png"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns figure-description">
+			Figure 35 - assembled table
+		</div>
+	</div>
+</div>
+<hr/>
+<div class="container">
+	<h4 id="circuit">2.6. Control circuit</h4>
+	<p>Robot's digital outputs (+24VDC) were used to control the relay, which in turn turned on/off the supply for the drill drive. Below is a schematic of the circuit.</p>
+	<div class="row">
+		<div class="eleven columns img-center">
+			<img class="u-max-full-width" src="lets-program-a-fanuc/circuit.png"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns figure-description">
+			Figure 36 - table control circuit
+		</div>
+	</div>
+	<p>The control circuit is rather simple, but enough for our needs. We should not forget that the robot is responsible for closing our feedback loop. It's a de-facto measuring
+	element with on-off controller on it's output (it decides whether shakes should be turned on).</p>
+	<p>The two circuits (robot's and table's) had to be separated, though, because the drill drive requires up to 2A of current, and the robot's power supply on digital outputs might not have been able to
+	handle such load (when thinking about digital outputs, we're talking more of a signals than energy in form of a current).</p>
+</div>
+<hr/>
+<div class="container">
+	<h4 id="summary">2.7. Summary</h4>
+	<p>Concluding, the project was rather successful. I've been struggling with the iRVision not being able to classify methods correctly every time, but it was good enough. Main flow
+	has been working correctly, including all parts of the system.</p>
+	<p>The project required a substantial knowledge of mechanics, electricity and most of all - FANUC programming. In short time I had to become fluent in FANUC's TP programming language, as well
+	as iRVision configuration.</p>
+	<p>In case of any question/remarks, I strongly encourage you to write me an email!</p>
+</div>
 </body>
 </html>
