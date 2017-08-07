@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event bus in C as a mean of modules de-coupling</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!--<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>-->
+
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/skeleton.css">
+	<link rel="stylesheet" href="../css/custom.css">
+
+	<script src="../js/jquery-2.2.4.js"></script>
+</head>
+<body>
+<div style="margin-top:3rem" class="container">
+	<h3>Abstract</h3>
+	<p>When working in previous company, our architect (https://twitter.com/oskar_at_net) showed me a concept of Event Bus (that was in JavaScript, but, well, it's rather universal :)). I remember that
+	two modules were tightly coupled with each other and he wanted to remove that cross-dependency. I want to show how that concept might be implemented in plain old C with a practical example. Let's get going! :)</p>
+</div>
+<hr/>
+<div class="container">
+	<h4>The problem</h4>
+	<p>I think that the best way to describe the problem is using appropriate diagrams, backed up by a short description:</p>
+	<div class="row">
+		<div class="eleven columns">
+			<img class="u-max-full-width" src="event-bus/the-problem.png"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns figure-description">
+			Figure 1 - the original approach
+		</div>
+	</div>
+	<p>Let's say we have some data bus in our system (for example, modbus communication between many microcontrollers). The display module is responsible for handling user interface. Clicking a particular button sends a frame to some other module of the system, thus there'll be obvious dependency (DisplayModule depends on CommunicationModule and its interface). And let's assume that other modules use this CommunicationModule, too (for example, the PowerModule, whatever that might be). Now imagine that we've received a frame that should be forwarded to DisplayModule so that an information is displayed. Worst thing to do would be to include DisplayModule and create a cross-dependency between the two modules and call UpdateDisplayData from within ReceiveFrame method. Better idea might be to include a common sub-module to be used by two modules. We'll do something like that, but a little twisted!</p>
+	
+</div>
+<hr/>
+<div class="container">
+	<h4>Possible solution</h4>
+	<p>A diagram of possible solution:</p>
+	<div class="row">
+		<div class="eleven columns">
+			<img class="u-max-full-width" src="event-bus/solution.png"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns figure-description">
+			Figure 2 - possible solution
+		</div>
+	</div>
+	<p>Here comes a short description, later on I'll present example code.</p>
+	<p>So, now in between DisplayModule and CommunicationModule stands EventBus. How does this work? Rather simple. Let's start from the EventBus implementation. We can see that the two public methods
+	are exposed: RegisterListener and Notify. RegisterListener parameters are as follows: eventId, which is some kind of an enum/define and eventCallback, which points to a function which takes a byte array and its length
+	as parameters. Notify parameters are, on the other hand, eventId (basing on decide, we'll wire up listeners), some additional data (byte array) and that data length (byte). What wires the whole mechanism up is
+	the eventId parameter. Somehow in the system, prefereable in the EventBus module, there must be some kind of a lookup table of eventIds that will be present in the system. Later on, whenever registering an event callback
+	or notify appropriate listeners, we're gonna identify it basing on that eventId. In our case, when the DisplayModule is initialized, we should register XYZ_FRAME_RECEIVED listener with UpdateDisplayData callback handler (implementation below!).
+	The communication module, on the other hand, should Notify XYZ_FRAME_RECEIVED listener when any other module (or maybe the procedure is called cyclically in some other thread? why not!) calls ReceiveFrame and XYZ frame is received.</p>
+	<p>What have we achieved? Obviously, now the CommunicationModule is not dependant on DisplayModule - it just notifies that a thing happened, here, grab the data, do whatever you want with it. It will not care
+	if the DisplayModule interface changes.</p>
+	<p>Okay, enough of this, let's show some code!</p>
+</div>
+<hr/>
+<div class="container">
+	<h4>Implementation in C</h4>
+	<script src="https://gist.github.com/marekpiotrowski/fbc7fb991420b5d10b49005db5667012.js"></script>
+	<script src="https://gist.github.com/marekpiotrowski/c8ac25e3b9a8ddf644c14faec20e2ee7.js"></script>
+</div>
+</body>
+</html>
