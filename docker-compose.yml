@@ -1,0 +1,17 @@
+version: '2'
+services:
+  web-server:
+    container_name: web-server
+    image: clouthinkin/nginx
+    ports:
+      - '8888:80'
+    depends_on:
+      - web-content
+    volumes_from:
+      - web-content
+  web-content:
+    container_name: web-content
+    image: busybox:latest
+    volumes:
+      - ./www:/usr/share/nginx/html/
+
